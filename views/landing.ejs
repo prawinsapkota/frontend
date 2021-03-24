@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Welcome </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    
+<script type="text/javascript">
+        window.history.forward(1);
+ </script>
+    
+    
+    
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+   height: 656px;
+  }
+      .imag{
+          height: 600px;
+      }
+  </style>
+</head>
+<body> 
+    
+    <div class="contianer-fluid">
+    
+         <div class="row">
+             <% include landingnav.ejs %>
+         </div>
+    
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/firstevent.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>Wuhan</h1>
+        <p>We had such a great time in Wuhan!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/secondevent.jpg" alt="Chicago"  class="imag">
+      <div class="carousel-caption">
+        <h1>Egypt</h1>
+        <p>Thank you, Egypt!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/thirdimage.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>New York</h1>
+        <p>Lets Plant!</p>
+      </div>   
+    </div>
+          <div class="carousel-item">
+      <img src="images/fourthevent.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h1>Nepal</h1>
+        <p>Education is the key</p>
+      </div>   
+    </div>
+  </div>
+    
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+    </div>
+</body>
+    
+    
+
+
+</html>
